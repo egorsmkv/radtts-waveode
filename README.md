@@ -34,5 +34,5 @@ wget https://github.com/egorsmkv/radtts-istftnet/releases/download/v1.0/RADTTS-L
 Then you can inference own texts by the following command:
 
 ```bash
-python3 inference.py -c config_ljs_dap.json -r models/RADTTS-Lada.pt -t test_sentences.txt --vocoder_path models/hifi_vocoder.pt --vocoder_config_path models/hifi_config.json -o results/
+python3 inference.py -c config_ljs_dap.json -r models/RADTTS-Lada.pt -t test_sentences.txt --vocoder_path models/M_40.pth --vocoder_config_path waveode_config.yaml -o results/ --sampling_method euler --sampling_steps 20
 ```
