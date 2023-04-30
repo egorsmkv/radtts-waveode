@@ -6,6 +6,8 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+- WaveODE: https://github.com/WelkinYang/WaveODE
+
 ---
 
 Clone the code:
