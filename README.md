@@ -27,12 +27,12 @@ Download Ukrainian RADTTS and WaveODE models:
 mkdir models
 cd models
 
-wget https://github.com/egorsmkv/radtts-waveode/releases/download/v1.0/M_40.pth
+wget https://github.com/egorsmkv/radtts-waveode/releases/download/v1.0/M_105.pth
 wget https://github.com/egorsmkv/radtts-istftnet/releases/download/v1.0/RADTTS-Lada.pt
 ```
 
 Then you can inference own texts by the following command:
 
 ```bash
-python3 inference.py -c config_ljs_dap.json -r models/RADTTS-Lada.pt -t test_sentences.txt --vocoder_path models/M_40.pth --vocoder_config_path waveode_config.yaml -o results/ --sampling_method euler --sampling_steps 20
+python3 inference.py -c config_ljs_dap.json -r models/RADTTS-Lada.pt -t test_sentences.txt --vocoder_path models/M_105.pth --vocoder_config_path waveode_config.yaml -o results/ --sampling_method euler --sampling_steps 20
 ```
