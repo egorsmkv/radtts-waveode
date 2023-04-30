@@ -1,12 +1,12 @@
 # RADTTS + WaveODE vocoder
 
+- WaveODE: https://github.com/WelkinYang/WaveODE
+
 🇺🇦 Join Ukrainian Text-to-Speech community: https://t.me/speech_synthesis_uk
 
 <a target="_blank" href="https://colab.research.google.com/drive/116S9IgTV4hqU1jjeuq35jrz3dLSolWqr?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-
-- WaveODE: https://github.com/WelkinYang/WaveODE
 
 ---
 
